@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar,
+#aboutTheProject {
+    background-image: url('images/Banner_soundcloud_1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-brand {
+    width: 240px;
+}
+
+.nav-item img {
+    width: 30px;
+    margin-right: 4px;
+}
+
+.nav-item a,
+.nav-link:hover, p,
+#discography .nav .nav-link {
+    color: #fffffff1;
+}
+
+#header .nav .nav-link.active,
+#discography .nav .nav-link.active {
+    background-color: #fffffff6;
+    color: black;
+}
+
+#header .nav .nav-link,
+#discography .nav .nav-link {
+    margin: 2px;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+
+.navbar-toggler {
+    background-color: #fffffff1;
+}
+
+.section-title {
+    color: #fffffff1;
+    font-weight: bold;
+}
+
+.carousel-item img {
+    height: 767px;
+}
+
+#latestReleases,
+#contact {
+    border-top: 2px solid #0f074e;
+    background-image: url('images/capa-facebook_4.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .card-subtitle {
+    color: #cccccce7;
+}
+
+#latestReleases .card .btn,
+#discography .card .btn {
+    position: absolute;
+    bottom: 16px;
+    width: 93%;
+}
+
+#discography {
+    border-top: 2px solid #0f074e;
+    background-image: url('images/capa-facebook_2.png');
+    background-size: auto;
+}
+
+#discography .card {
+    height: 100%;
+}
+
+#discography .card .btn {
+    width: 70%;
+}
+
+#discography .col-md-4 {
+    margin-bottom: 16px;
+}
+
+#contact .form-background {
+    background-color: #ffffff82;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.error-message {
+    color: red;
+    margin-top: 4px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .carousel-item img {
+        height: 550px;
+    }
+}
